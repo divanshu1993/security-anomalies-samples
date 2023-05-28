@@ -1,6 +1,6 @@
 timestamp,requestid,log_level,message,status
-26/05/23 16:55,53556,INFO,"Bean 'postgresConfig' of type [ru.yandex.qatools.embed.postgresql.config.PostgresConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-Extract /Users/a13400641/.embedpostgresql/postgresql-10.6-1-osx-binaries.zip START"
-26/05/23 16:55,53558,INFO, CONNET 172.12.23.222 application message to accept the request
-26/05/23 16:55,53558,INFO, id1=17&id2=1%27%20or%201= level code is executed before logic
-26/05/23 16:55,53558,INFO, database insertion is happening
+26/05/23 16:55,53556,INFO,"Bean 'postgresConfig' of type [ru.yandex.qatools.embed.postgresql.config.PostgresConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying),
+Extract /Users/a13400641/.embedpostgresql/postgresql-10.6-1-osx-binaries.zip START",
+26/05/23 16:55,53558,INFO, CONNET 172.12.23.222 application message to accept the request,
+26/05/23 16:55,53558,INFO, id1=17&id2=1%27%20or%201= level code is executed before logic,
+26/05/23 16:55,53558,INFO, database insertion is happening,
