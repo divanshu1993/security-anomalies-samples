@@ -3,6 +3,11 @@
 Extract /Users/a13400641/.embedpostgresql/postgresql-10.6-1-osx-binaries.zip START",SECURE
 26/05/23 16:55,53557,INFO, %20% ,NON_SECURE
 26/05/23 16:55,53558,INFO, CONNECT 174.12.23.111 application message to accept the request,NON_SECURE
+26/05/23 16:55,53558,INFO, CONNECT 174.12.23.112 application message to accept the request,NON_SECURE
+26/05/23 16:55,53558,INFO, CONNECT 174.12.23.113 application message to accept the request,NON_SECURE
+26/05/23 16:55,53558,INFO, CONNECT 174.12.23.114 application message to accept the request,NON_SECURE
+26/05/23 16:55,53558,INFO, CONNECT 174.12.23.115 application message to accept the request,NON_SECURE
+26/05/23 16:55,53558,INFO, CONNECT 174.12.23.116 application message to accept the request,NON_SECURE
 26/05/23 16:55,53557,INFO, %27% ,NON_SECURE
 26/05/23 16:55,53558,INFO, simple application message to accept the request,SECURE
 26/05/23 16:55,53558,INFO, service class level code is executed before logic,SECURE
