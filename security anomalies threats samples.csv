@@ -9,7 +9,11 @@ Extract /Users/a13400641/.embedpostgresql/postgresql-10.6-1-osx-binaries.zip STA
 26/05/23 16:55,53558,INFO, CONNECT 174.12.23.115 application message to accept the request,NON_SECURE
 26/05/23 16:55,53558,INFO, CONNECT 174.12.23.116 application message to accept the request,NON_SECURE
 26/05/23 16:55,53558,INFO, CONNECT 174.12.23.117 application message to accept the request,NON_SECURE
-26/05/23 16:55,53557,INFO, %27% ,NON_SECURE
+26/05/23 16:55,53557,INFO, home=177&id=1%27%20or%201=@@version-- test ,NON_SECURE
+26/05/23 16:55,53557,INFO, home=177&id=13%27%20or%201=@@version-- test ,NON_SECURE
+26/05/23 16:55,53557,INFO, home=177&id=25%27%20or%201=@@version-- test ,NON_SECURE
+26/05/23 16:55,53557,INFO, home=177&id=101%27%20or%201=@@version-- test ,NON_SECURE
+26/05/23 16:55,53557,INFO, home=177&id=1000%27%20or%201=@@version-- test ,NON_SECURE
 26/05/23 16:55,53558,INFO, simple application message to accept the request,SECURE
 26/05/23 16:55,53558,INFO, service class level code is executed before logic,SECURE
 26/05/23 16:55,53558,INFO, database insertion is happening,SECURE
