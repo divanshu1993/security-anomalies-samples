@@ -1,10 +1,10 @@
 ﻿timestamp,requestid,log_level,message,status
 26/05/23 16:55,53556,INFO,"Bean 'postgresConfig' of type [ru.yandex.qatools.embed.postgresql.config.PostgresConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying),
-Extract /Users/a13400641/.embedpostgresql/postgresql-10.6-1-osx-binaries.zip START",0
-26/05/23 16:55,53557,INFO,%20% ,1
-26/05/23 16:55,53558,INFO, CONNECT ­ NONE/­ text/html,1
-26/05/23 16:55,53557,INFO,%27%,1
-26/05/23 16:55,53558,INFO, simple application message to accept the request,0
-26/05/23 16:55,53558,INFO, service class level code is executed before logic,0
-26/05/23 16:55,53558,INFO, database insertion is happening,0
+Extract /Users/a13400641/.embedpostgresql/postgresql-10.6-1-osx-binaries.zip START",SECURE
+26/05/23 16:55,53557,INFO,%20% ,NON_SECURE
+26/05/23 16:55,53558,INFO, CONNECT ­ NONE/­ text/html,NON_SECURE
+26/05/23 16:55,53557,INFO,%27%,NON_SECURE
+26/05/23 16:55,53558,INFO, simple application message to accept the request,SECURE
+26/05/23 16:55,53558,INFO, service class level code is executed before logic,SECURE
+26/05/23 16:55,53558,INFO, database insertion is happening,SECURE
 
