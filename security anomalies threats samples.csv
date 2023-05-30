@@ -1,20 +1,28 @@
-﻿timestamp,requestid,log_level,message,status
-26/05/23 16:55,53556,INFO,"Bean 'postgresConfig' of type [ru.yandex.qatools.embed.postgresql.config.PostgresConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying),
-Extract /Users/ajss/.embedpostgresql/postgresql-10.6-1-osx-binaries.zip START",SECURE
-26/05/23 16:55,53557,INFO, %20% ,NON_SECURE
-26/05/23 16:55,53558,INFO, CONNECT 174.12.23.111 application message to accept the request,NON_SECURE
-26/05/23 16:55,53558,INFO, CONNECT 174.12.23.112 application message to accept the request,NON_SECURE
-26/05/23 16:55,53558,INFO, CONNECT 174.12.23.113 application message to accept the request,NON_SECURE
-26/05/23 16:55,53558,INFO, CONNECT 174.12.23.114 application message to accept the request,NON_SECURE
-26/05/23 16:55,53558,INFO, CONNECT 174.12.23.115 application message to accept the request,NON_SECURE
-26/05/23 16:55,53558,INFO, CONNECT 174.12.23.116 application message to accept the request,NON_SECURE
-26/05/23 16:55,53558,INFO, CONNECT 174.12.23.117 application message to accept the request,NON_SECURE
-26/05/23 16:55,53557,INFO, home=177&id=1%27%20or%201=@@version-- test ,NON_SECURE
-26/05/23 16:55,53557,INFO, home=177&id=13%27%20or%201=@@version-- test ,NON_SECURE
-26/05/23 16:55,53557,INFO, home=177&id=25%27%20or%201=@@version-- test ,NON_SECURE
-26/05/23 16:55,53557,INFO, home=177&id=101%27%20or%201=@@version-- test ,NON_SECURE
-26/05/23 16:55,53557,INFO, home=177&id=1000%27%20or%201=@@version-- test ,NON_SECURE
-26/05/23 16:55,53558,INFO, simple application message to accept the request,SECURE
-26/05/23 16:55,53558,INFO, service class level code is executed before logic,SECURE
-26/05/23 16:55,53558,INFO, database insertion is happening,SECURE
+message,status
+CONNECT 174.12.23.111 application message to accept the request,NON_SECURE
+CONNECT 174.12.23.112 application message to accept the request,NON_SECURE
+CONNECT 174.12.23.113 application message to accept the request,NON_SECURE
+CONNECT 174.12.23.114 application message to accept the request,NON_SECURE
+CONNECT 174.12.23.115 application message to accept the request,NON_SECURE
+CONNECT 174.12.23.116 application message to accept the request,NON_SECURE
+CONNECT 174.12.23.117 application message to accept the request,NON_SECURE
+home=177&id=1%27%20or%201=@@version-- test ,NON_SECURE
+home=177&id=13%27%20or%201=@@version-- test ,NON_SECURE
+home=177&id=25%27%20or%201=@@version-- test ,NON_SECURE
+home=177&id=101%27%20or%201=@@version-- test ,NON_SECURE
+home=177&id=1000%27%20or%201=@@version-- test ,NON_SECURE
+<script>javascript:alert(‘Executed!’);</script>,NON_SECURE
+<script>javascript: alert(document.cookie);</script>,NON_SECURE
+<script>javascript:void(document.cookie=“session_id=<<other session id>>“);</script>,NON_SECURE
+<script>javascript:void(document.cookie=”username=otherUser”);</script>,NON_SECURE
+<script>var adr = '../evil.php?cakemonster=' + escape(document.cookie);</script>,NON_SECURE
+<script></script>,NON_SECURE
+<script></script>,NON_SECURE
+<IMG SRC=j&#X41vascript:alert('test2')>,NON_SECURE
+<IMG SRC=j&#X41vascript:alert('hacked')>,NON_SECURE
+<IMG SRC=j&#X41vascript:alert('check')>,NON_SECURE
+<IMG SRC=j&#X41vascript:alert('test')>,NON_SECURE
+simple application message to accept the request,SECURE
+service class level code is executed before logic,SECURE
+database insertion is happening,SECURE
 
