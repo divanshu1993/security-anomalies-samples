@@ -1,6 +1,6 @@
 ﻿timestamp,requestid,log_level,message,status
 26/05/23 16:55,53556,INFO,"Bean 'postgresConfig' of type [ru.yandex.qatools.embed.postgresql.config.PostgresConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying),
-Extract /Users/a13400641/.embedpostgresql/postgresql-10.6-1-osx-binaries.zip START",SECURE
+Extract /Users/ajss/.embedpostgresql/postgresql-10.6-1-osx-binaries.zip START",SECURE
 26/05/23 16:55,53557,INFO, %20% ,NON_SECURE
 26/05/23 16:55,53558,INFO, CONNECT 174.12.23.111 application message to accept the request,NON_SECURE
 26/05/23 16:55,53558,INFO, CONNECT 174.12.23.112 application message to accept the request,NON_SECURE
